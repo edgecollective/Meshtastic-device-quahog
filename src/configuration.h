@@ -217,7 +217,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define VEXT_ENABLE 21 // active low, powers the oled display and the lora antenna boost
 //define LED_PIN 25     // If defined we will blink this LED
-#define BUTTON_PIN 0   // If defined, this will be used for user button presses
+#define BUTTON_PIN 19   // If defined, this will be used for user button presses
 
 #ifndef USE_JTAG
 #define RF95_RESET 27 // If defined, this pin will be used to reset the LORA radio
